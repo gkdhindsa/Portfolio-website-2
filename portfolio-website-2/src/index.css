@@ -11,10 +11,11 @@ body{
   position: fixed;
   display: flex;
   width: 100%;
+  justify-content: center;
   
 }
 nav{
-  max-width: 1000px;
+ 
   padding-left: 10%;
   padding-right: 10%;
   
@@ -68,7 +69,12 @@ nav ul a li{
 .container{
   max-width: 1000px;
   margin: 0 auto;
-  padding: 10% 5%;
+  padding: 10vh 5vw;
+  
+}
+.top-container{
+  min-height: 80vh;
+  padding: 15vh 5vw 5vh 5vw;
 }
 h1{
   font-size: 3rem;
